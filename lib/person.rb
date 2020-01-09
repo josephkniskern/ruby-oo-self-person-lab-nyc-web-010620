@@ -65,6 +65,13 @@ class Person
     "♪ another one bites the dust ♫"
   end
 
+  def call_friend(name)
+    @happiness += 3
+    self.name += 3
+    self.happiness = happiness
+    "Hi #{callee.name}! It's #{caller.name}. How are you?"
+  end
+
   def start_conversation(person, topic)
   end
 
