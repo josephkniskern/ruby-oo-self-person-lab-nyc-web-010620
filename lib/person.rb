@@ -63,6 +63,7 @@ class Person
     @happiness += 2
     self.happiness = @happiness
     "♪ another one bites the dust ♫"
+  end
 
   def start_conversation(person, topic)
   end
