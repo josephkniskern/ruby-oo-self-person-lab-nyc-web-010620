@@ -52,8 +52,7 @@ class Person
   end
 
   def take_bath
-    self.hygine += 4
-    return "Rub-a-dub just relaxing in the tub"
+    @hygine += 4
   end
 
   def start_conversation(person, topic)
