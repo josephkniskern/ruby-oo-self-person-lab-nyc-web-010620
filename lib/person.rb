@@ -60,6 +60,9 @@ class Person
   def work_out
     @hygiene -= 3
     self.hygiene = @hygiene
+    @happiness += 2
+    self.happiness = @happiness
+    "♪ another one bites the dust ♫"
 
   def start_conversation(person, topic)
   end
