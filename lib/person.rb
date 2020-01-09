@@ -53,9 +53,9 @@ class Person
 
   def take_bath
     @hygiene += 4
-    "♪ Rub-a-dub just relaxing in the tub ♫"
     self.hygiene = @hygiene
-    
+    return "♪ Rub-a-dub just relaxing in the tub ♫"
+
   end
 
   def start_conversation(person, topic)
