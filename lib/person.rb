@@ -52,7 +52,7 @@ class Person
   end
 
   def take_bath
-    @hygine + 4
+    @hygiene + 4
   end
 
   def start_conversation(person, topic)
