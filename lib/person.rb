@@ -55,8 +55,11 @@ class Person
     @hygiene += 4
     self.hygiene = @hygiene
     return "♪ Rub-a-dub just relaxing in the tub ♫"
-
   end
+
+  def work_out
+    @hygiene -= 3
+    self.hygiene = @hygiene
 
   def start_conversation(person, topic)
   end
